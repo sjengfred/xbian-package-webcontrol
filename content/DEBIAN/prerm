@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $1 == "remove" ]; then
+
+        if [ -f "/etc/init.d/lighttpd" ]; then
+                /etc/init.d/lighttpd stop &>/dev/null;
+        fi
+
+fi
+

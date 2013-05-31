@@ -1,0 +1,9 @@
+Origin: XBian
+Package: xbian-package-webcontrol
+Version: 1.0
+Section: net
+Priority: optional
+Architecture: armhf
+Depends: xbian-update,lighttpd,php5-cgi
+Maintainer: sjengfred <sjengfred@home.nl>
+Description: HDMI monitor for starting XBMC

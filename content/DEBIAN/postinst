@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [[ $1 == "configure" ]]; then
+
+	if [ -f "/etc/lighttpd/lighttpd.conf" ]; then
+		mv /etc/lighttpd/lighttpd.conf /etc/lighttpd/lighttpd.bak;
+	fi
+	mv /etc/lighttpd_temp/lighttpd.conf /etc/lighttpd/lighttpd.conf;
+
+        if [ -f "/etc/lighttpd/auth.txt" ]; then
+                mv /etc/lighttpd/auth.txt /etc/lighttpd/auth.bak;
+        fi
+        mv /etc/lighttpd_temp/auth.txt /etc/lighttpd/auth.txt;
+	rm -r /etc/lighttpd_temp
+
+	sudo service lighttpd restart
+
+fi
