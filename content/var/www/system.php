@@ -33,20 +33,20 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAzCAIAAADZx
 <body>
 <center>
 <br><br>
-<input type="submit" class="button_style1" id="startCP" value="Start CouchPotato"/>
+<input type="submit" class="button_style1" id="startCP" value="(Re)start CouchPotato"/>
 <img id="loadingImageCP" src="system/ajax-loader.gif" style="visibility:hidden; vertical-align:middle;"/>
 <br>
-<input type="submit" class="button_style1" id="startSB" value="Start SickBeard"/>
+<input type="submit" class="button_style1" id="startSB" value="(Re)start SickBeard"/>
 <img id="loadingImageSB" src="system/ajax-loader.gif" style="visibility:hidden; vertical-align:middle;"/>
 <br>
-<input type="submit" class="button_style1" id="startNG" value="Start NZBGet"/>
+<input type="submit" class="button_style1" id="startNG" value="(Re)start NZBGet"/>
 <img id="loadingImageNG" src="system/ajax-loader.gif" style="visibility:hidden; vertical-align:middle;"/>
 <br>
-<input type="submit" class="button_style1" id="startAS" value="Start AutoSub"/>
+<input type="submit" class="button_style1" id="startAS" value="(Re)start AutoSub"/>
 <img id="loadingImageAS" src="system/ajax-loader.gif" style="visibility:hidden; vertical-align:middle;"/>
 <br><br>
 
-<input type="submit" class="button_style1" id="startXB" value="Start XBMC"/>
+<input type="submit" class="button_style1" id="startXB" value="(Re)start XBMC"/>
 <img id="loadingImageXB" src="system/ajax-loader.gif" style="visibility:hidden; vertical-align:middle;"/>
 <br><br>
 
